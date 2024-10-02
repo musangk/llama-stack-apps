@@ -174,6 +174,7 @@ export LLAMA_CHECKPOINT_DIR=~/.llama
 To download and start running a pre-built docker container, you may use the following commands:
 ```
 docker image pull llamastack/llamastack-local-gpu
+docker tag llamastack/llamastack-local-gpu llamastack-local-gpu
 llama stack configure llamastack-local-gpu
 llama stack run local-gpu
 ```
